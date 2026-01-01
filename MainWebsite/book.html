@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Book an Appointment</h1>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="book.html">Book</a>
+    <a href="work.html">Work</a>
+    <a href="accessibility.html">Accessibility</a>
+    
+    <button id="mobileToggle">Toggle Mobile/Desktop mode</button>
+  </nav>
+</header>
+
+<section class="content glow">
+  <form id="bookingForm" aria-label="Appointment booking form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="tel" placeholder="Phone Number">
+    <input type="date" required>
+    <textarea placeholder="Describe your project"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="thankYouMessage" class="thank-you">
+    <h2>Thank you! 🎉</h2>
+    <p>Your appointment request has been received.</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
