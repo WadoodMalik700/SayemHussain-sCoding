@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.portrait {
+  position: relative;
+  width: 260px;
+  height: 360px;
+}
+
+/* Hair */
+.hair {
+  position: absolute;
+  width: 210px;
+  height: 140px;
+  background: #1b1b1b;
+  border-radius: 110px 110px 80px 80px;
+  top: 20px;
+  left: 25px;
+}
+
+/* Head */
+.head {
+  position: absolute;
+  width: 200px;
+  height: 260px;
+  background: linear-gradient(#f2c9a5, #e2b08c);
+  border-radius: 100px 100px 120px 120px;
+  left: 30px;
+  top: 40px;
+}
+
+/* Eyes */
+.eye {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  background: #222;
+  border-radius: 50%;
+  top: 120px;
+}
+
+.eye.left {
+  left: 70px;
+}
+
+.eye.right {
+  right: 70px;
+}
+
+/* Nose */
+.nose {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  border-left: 2px solid rgba(0,0,0,0.25);
+  top: 140px;
+  left: 100px;
+}
+
+/* Mouth */
+.mouth {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-bottom: 3px solid #a34b4b;
+  border-radius: 0 0 50px 50px;
+  top: 200px;
+  left: 75px;
+}
+
+/* Neck */
+.neck {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  background: #e2b08c;
+  top: 280px;
+  left: 95px;
+  border-radius: 20px;
+}
+
+/* Shoulders */
+.shoulders {
+  position: absolute;
+  width: 260px;
+  height: 80px;
+  background: #2a2a2a;
+  top: 330px;
+  left: 0;
+  border-radius: 50px 50px 0 0;
+}
