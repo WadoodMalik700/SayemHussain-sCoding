@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Accessibility Settings</h1>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="book.html">Book</a>
+    <a href="work.html">Work</a>
+
+    <button id="mobileToggle">Toggle Mobile/Desktop mode</button>
+
+  </nav>
+</header>
+
+<section class="content glow">
+  <h2>Customize Your Experience</h2>
+
+  <label>
+    <input type="checkbox" id="darkModeToggle">
+    Enable Dark Mode
+  </label><br><br>
+
+  <label>
+    <input type="checkbox" id="keyboardModeToggle">
+    Keyboard Navigation Mode
+  </label><br><br>
+
+  <label>
+    <input type="checkbox" id="highContrastToggle">
+    High Contrast Mode
+  </label><br><br>
+
+  <label>
+    Text Size
+    <select id="fontSizeSelect">
+      <option value="100">Normal</option>
+      <option value="110">Large</option>
+      <option value="125">Extra Large</option>
+    </select>
+  </label>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
