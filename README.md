@@ -47,7 +47,15 @@ And a lot more, I chose to make an animated lavalamp and by using the help of: h
 Week 5 was mainly about using Figma to put together a user interface that you'd probably want to use on the main website so i used it to easily drag around diffrant assets and experiment with diffrant colours without worrying about any coding. I used a prototype option a lot to be able to link many webpages together to create an interative webpage alongside constanly creating componants and combing them as variants so i can do cool stuff such as: 
 * Create an outline whenever the mouse is hovered over somethine
 * Have assets change colour based on the users actions
+* Have a dark/light mode trigger
 
 And so much more! This was more about preperation so when it came to acctually coding the website I have something I can work with in terms of design and layout.
 
 https://www.figma.com/proto/eTKehMyI82NtceBMQ9pK93/Untitled?node-id=1-2&starting-point-node-id=1%3A2
+
+## Week 6
+### Task 1
+Now alongsid html and css we're also including javascript onto our code, Javascript adds more interactivity and functionality to our codes so unlike week 2 which only had a link button with this task I made it so when you press the button it displays a piece of text where each letter is a diffrant colour everytime you push the button. So on javascript I used funtions like TypeWriter and RandomColour so not only does the text have random colours but it has a little typing animation as well. This website gave a good idea on how to get a started with the TypeWriter function this did help me a bit: https://www.w3schools.com/howto/howto_js_typewriter.asp
+
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/b91a1980-96d9-447d-ab64-43ed6395082c" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/3e0794db-1707-45f6-bdcf-5140adc529ad" />
