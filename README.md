@@ -59,3 +59,10 @@ Now alongsid html and css we're also including javascript onto our code, Javascr
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/b91a1980-96d9-447d-ab64-43ed6395082c" />
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/3e0794db-1707-45f6-bdcf-5140adc529ad" />
+
+### Task 2
+Unfortunaly I wasnt able to get this code running how I'd like but what I tried to do was make a unqiue weather app that shows the time but also have rain effects in the background that would fill up the website with water overtime the longer the website was open for. So using getWeather function I tried to make it so that it would show the celcius but I was only able to get the 24-hour clock working using the getClock function. I unfortuanly also had to use AI (ChatGPT) for the dynamic background where it would fill up with water because I didn't really understand javascript that much at the time. But with the clock I used this video to give me a good idea of how to put together a clock: https://www.youtube.com/watch?v=0vNExSvvBOE - as for the rain I mainly focased on using "random" functions on x and y axis to randomly determain where each rain drop should apprear so therefore the shapes can apprear all over the document giving the illusion of rain.
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8f7dbb2c-edd0-4394-8899-3f176c91f10c" />
+
+
