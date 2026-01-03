@@ -41,3 +41,13 @@ Week 4s tasks involved choosing an idea from this website: https://www.are.na/ia
 And a lot more, I chose to make an animated lavalamp and by using the help of: https://dev.to/eidorianavi/an-introduction-to-animation-and-keyframes-in-css-30mi#:~:text=To%20build%20out%20a%20keyframe,re%20animation%20should%20be%20doing. - I was able to learn about the @keyframes function whcih allowed the lava (which were just a bunch of orange circles mashed together) to change sizes randomly. CSS was about programming each "lava" piece's behaviour such has how long it should take to transition to another size or what sizes should it change to. Then I used html to display everything. 
 
 <img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/6bde5393-bce2-4987-84dd-c1fd05d12210" />
+
+## Week 5
+### Task 1
+Week 5 was mainly about using Figma to put together a user interface that you'd probably want to use on the main website so i used it to easily drag around diffrant assets and experiment with diffrant colours without worrying about any coding. I used a prototype option a lot to be able to link many webpages together to create an interative webpage alongside constanly creating componants and combing them as variants so i can do cool stuff such as: 
+* Create an outline whenever the mouse is hovered over somethine
+* Have assets change colour based on the users actions
+
+And so much more! This was more about preperation so when it came to acctually coding the website I have something I can work with in terms of design and layout.
+
+https://www.figma.com/proto/eTKehMyI82NtceBMQ9pK93/Untitled?node-id=1-2&starting-point-node-id=1%3A2
