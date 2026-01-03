@@ -31,3 +31,13 @@ DESCLAIMER: I did attempt to upload a video of it but this document doesn't allo
 For the 1 task I did for week 3 I had to combine diffrant shapes and colours to make a face that looks like a human - like a portrait. Using this website: https://www.w3schools.com/howto/howto_css_circles.asp - I was able to learn about how to draw shapes, this was important as for my main website I planned on making shapes in the form of large clickable buttons for better accessilibity. With this code CSS did most of the heavy lifting with the positioning of everything alongside the use of diffrant colours so that every aspect of the face was visible. 
 
 <img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/04bc1aa3-5e08-473d-93f1-e0c154ea310c" />
+
+## Week 4
+### Task 1
+Week 4s tasks involved choosing an idea from this website: https://www.are.na/ian-mcdonald/an-idea-for-a-website - and choosing which one we wanted to make, they had some really interesting options like:
+* A haunted website
+* A time limtied website
+
+And a lot more, I chose to make an animated lavalamp and by using the help of: https://dev.to/eidorianavi/an-introduction-to-animation-and-keyframes-in-css-30mi#:~:text=To%20build%20out%20a%20keyframe,re%20animation%20should%20be%20doing. - I was able to learn about the @keyframes function whcih allowed the lava (which were just a bunch of orange circles mashed together) to change sizes randomly. CSS was about programming each "lava" piece's behaviour such has how long it should take to transition to another size or what sizes should it change to. Then I used html to display everything. 
+
+<img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/6bde5393-bce2-4987-84dd-c1fd05d12210" />
