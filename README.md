@@ -25,3 +25,9 @@ Now with task 2 we're moving away from the mini portfolio website to make someth
 
 <img width="300" height= "300" alt="image" src="https://github.com/user-attachments/assets/f9275f04-6678-412d-8ec6-b0fb6b0f535e" />
 DESCLAIMER: I did attempt to upload a video of it but this document doesn't allow me to upload videos
+
+## Week 3
+### Task 1
+For the 1 task I did for week 3 I had to combine diffrant shapes and colours to make a face that looks like a human - like a portrait. Using this website: https://www.w3schools.com/howto/howto_css_circles.asp - I was able to learn about how to draw shapes, this was important as for my main website I planned on making shapes in the form of large clickable buttons for better accessilibity. With this code CSS did most of the heavy lifting with the positioning of everything alongside the use of diffrant colours so that every aspect of the face was visible. 
+
+<img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/04bc1aa3-5e08-473d-93f1-e0c154ea310c" />
