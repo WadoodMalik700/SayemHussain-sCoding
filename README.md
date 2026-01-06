@@ -65,4 +65,15 @@ Unfortunaly I wasnt able to get this code running how I'd like but what I tried 
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8f7dbb2c-edd0-4394-8899-3f176c91f10c" />
 
+## Week 8
+### Task 1
+This was kind of a funny mini website I was working on because I wanted to showcase some annoying user interface designs. So what I have done for this page is I made it so you could not press any of the buttons because whenever you try to hover accross any of the buttons I used the random function on the x and y-axies on the buttons to move them to a random place whenever the cursor is hovered accross it. Just to annoy the user even more I used Math.random on the fontSize function to make the tital of the website so big and small which can be distracting, alongside that i placed annoying messages accross the website to really annoy the user. I used this website to help me use the Math.random function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random 
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1e1e1baa-e972-4f88-a0fe-a3a283d77367" />
+
+### Task 2
+Moving on to task 2 this one was more about the user pushing a button in order to chnage the background, this task was more or less learning how we could implement dark mode onto our websites because the change of colour of the background is going to impact the theme a lot as the majaority of the user's screen is the background. So we have 2 buttons "activate" and "deactivate" the activate button chnages the backgroun colour to a diffrant colour meanwhile the deactivate button makes the background white again. 
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/49cbc0e8-fa58-45df-a467-92dae1afbf0a" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/04b246c9-3e9b-49ea-a90c-e6ee07f61056" />
 
