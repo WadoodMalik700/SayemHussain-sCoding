@@ -102,6 +102,7 @@ Now its time to talk about the main website, to get started accessiblity was the
 * Dark mode in case anyone gets eye stain from the regular mode.
 * Keyboard navigation mode will highlight where the mouse is in case the user stuggles to find the cursor.
 * And larger clickable buttons so a lot less presicion is required to navigate the website.
+
 When it comes to things I could improve I could of:
 * Made smaller font options for those that prefer that.
 * Make improvments and changes to hig contrast mode since I accidentally made it look like dark mode.
