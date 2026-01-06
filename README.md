@@ -77,3 +77,14 @@ Moving on to task 2 this one was more about the user pushing a button in order t
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/49cbc0e8-fa58-45df-a467-92dae1afbf0a" />
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/04b246c9-3e9b-49ea-a90c-e6ee07f61056" />
 
+## Week 9
+### Task 1
+Controlling a direction a shape is moving in is what we had to do fro our first task, so i made four buttons that go the 4 diffrant diractions and based on which button the user clicks itll make the shape move slightly in that direction. In order to get the controls working I had to:
+* Use moveBox functions with directions to make sure the shape only moved when the direction was clicked.
+* Set a limit to how far the shape moved so it wouldn't go out of bounds by using "if" functions and "posX" and "posY" to tell the code the shape has gone far enough.
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/460fa722-b51a-4d65-9a72-e80ab1decc93" />
+
+### Task 2
+So I wanted to build upon what I made with task 1 so by implementing this line of code: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" in script i was able to implement the GSAP libary which would allow me to make some nice and fluid looking animations. So i made it so that when the user clicks any direction of button not only will it move in that direction but now it will laos grow in size but go back to its normal size when the shape stops moving all in 1 animation. Using javascript i was able to set what animation I wanted alongside the duriation of the animation. Alongside that I decided to make the buttons black so that it contrasts well and the buttons are easier to see as I want to make sure for the main website I make the important features be more eye catching using diffrant colours.
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/86a40ee3-d4bb-4f84-819e-4d522bf9044a" />
