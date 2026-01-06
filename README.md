@@ -93,5 +93,53 @@ So I wanted to build upon what I made with task 1 so by implementing this line o
 ### Task 1
 The main focas for week 10 was having to connect to the cci libary so that you can have access to exclusive libaries in that server but that aside with the code I've done its an interactive animation with confetii where there would be confetti coming out of the mouse cursor but based on the location on the mouse it would change the colour of the confetti. When it comes to the coding itself I first added a gravity function so that when the confetti spawns in it falls towards the ground and I brought back the Math.random function so I can have the confettiy go in random directions when it comes out of the mouse cursor and having a lot spwan in at once will create the apperance of making all these small shapes look like confetti. Alongside that with the UpdateConetty funcation that causes the confetty to change itself while the code is running like for example using "MouseX" and "MouseY" the code can see the coordiates of the mouse cursor to change the colkour of the confetty based on where the cursor itself is. DESCLAIMER: I did use Ai to help me make the gravity function as I was struggling to get that to work.
 
-<img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/bb4bad19-de3b-49d6-b06b-a817f243f91e" />
+<img width="550" height="250" alt="image" src="https://github.com/user-attachments/assets/bb4bad19-de3b-49d6-b06b-a817f243f91e" />
 <img width="100" height="400" alt="image" src="https://github.com/user-attachments/assets/84c2387a-5f41-4aa5-9010-6b2f34104a2b" />
+
+### Main website
+Now its time to talk about the main website, to get started accessiblity was the huge main focas as I wanted as many clients to be able to use the website as possible regardless of what limitations they have. So first of all we have:
+* Diffrant font size options so that if any users sturggle to read smaller text they can choose to make the size "large" or "Extra large".
+* Dark mode in case anyone gets eye stain from the regular mode.
+* Keyboard navigation mode will highlight where the mouse is in case the user stuggles to find the cursor.
+* And larger clickable buttons so a lot less presicion is required to navigate the website.
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/cbf31bad-3a01-4724-b615-bfc3a2cdf357" />
+
+Moving on to the homepage there isnt really anything special on there besides some scroll trigger animations alongside having componants go bigger in size and have a nice glowing effect whenever the mouse cursor hovers above it. More or less the homepage is just welcomeing the user to the website. 
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/d5ccba56-d8b8-4a52-aef5-aa71a67f391d" />
+
+The "about" page is more or less a portfolio for an imaginary group called "the coders", where the clients can learn more about this group if they're interested. 
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/45154b11-6612-4b42-ac33-b786b6f51108" />
+
+Now for the "book" page I implemented a form in case clients want to book an appoinment with one of our employess (its not a real buisness) and the form asks for some basic deatails of what theyre after and after submitting all the information the webpage displays a thank you message which confirms to the user that the request has been sent over.
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/c0f29a80-5be5-4fe3-b48e-77616bb6bc6e" />
+
+<img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/2304db8e-e18c-4819-ac58-7bafa7d6de73" />
+
+Now you may have seen in the screenshots we also have a button that toggles mobile view and you can use the same button to switch back to desktop mode if thats what you prefer, this button more or less changes the layout of the webpages to accomidate to mobile users.
+
+<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/c480adb6-745a-4e98-b438-19245d0166ef" />
+
+And for our last webpage we have the one that displays all of my weekly tasks in the "work" page, the purpose of it is to show clients the type of stuff we have made in the past and if they like what they see then they can book an appoinment with us. This website shows a little preview of the code running but we also have a button just below the preview that allows you to open a full page to see the code running better (I did try to implement a back buttong for then the code is running full screen but unfortunalty I could not get it working). ALongside that I wrote down a desciption (the desciption doesn't match the code because I copied and pasted it from another project, however everything else works the way it should). 
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/0b41696e-c93f-4f86-9678-12493a825457" />
+
+Now when it comes to functions I have used we got:
+* revealonScroll which allows for scroll trigger animations.
+* fontSizeSelect.value which allowed me to add diffrant values to how big the font size should be for each option.
+* settings.dark and darkToggle.onchange which allows for dark mode witht he help of selecting the right html colours on css.
+* getElementById and applySettings this was so that when the user chooses an accessilibty option it applies to all webpages.
+* .glow:hover is a css function that allowed me to add the glow effect when the mouse hovered over something.
+* iframe is a html function that allows me to show a preview of other codes, all I had to do after that was add the folder with the codes to the main website and add the link.
+
+Here's some of the links to websites that helped me:
+https://www.miketoft.com/blog/dark-mode-for-website/ - for dark mode
+https://codersblock.com/blog/creating-glow-effects-with-css/ - this helped me get started on learning about glow effects.
+https://www.youtube.com/watch?v=Sbtsxt9NbV8 - this video helped me learn about the iframe function.
+https://forum.freecodecamp.org/t/contact-form-js-thank-you-message/549398/6 - here I learnt about how I can inplement a form in the "book" page.
+https://stackoverflow.com/questions/48685991/how-to-animate-an-element-when-scrolled-and-reveals - for scrolling animations
+When it comes to the ability to change the font size I did use chatgpt to help me make the list of options for font sizez and for that to be applied to all webpages when selected.
+
