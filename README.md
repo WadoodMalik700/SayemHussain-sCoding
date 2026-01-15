@@ -100,6 +100,9 @@ The main focas for week 10 was having to connect to the cci libary so that you c
 ### Task 1
 So for my final weeekly task i didn't really do any coding using the programming langueges from the other task as we focased more on creating 3D sceans using Threejs alongside blender to create the 3D assets, and then transfeering those assets over to threejs to create a scean when the 3D models were ready. As i dont know how to use threejs that well i decided to make a basic disco ball with a few neon lights around it. Just as a disclaimer I did attempt to add this weekly task to the main website but i kept getting error messages as my home computer cannot handle 3D assests so unfortunatly since i did develop the whole website on my home pc the only way i was going to be able to test everything was if i removed week 11 from the website.
 
+<img width="298" height="248" alt="image" src="https://github.com/user-attachments/assets/e246ef1f-1220-4086-af88-f4c4b12616e0" />
+
+
 ### Main website
 Now its time to talk about the main website, to get started accessiblity was the huge main focas as I wanted as many clients to be able to use the website as possible regardless of what limitations they have. So first of all we have:
 * Diffrant font size options so that if any users sturggle to read smaller text they can choose to make the size "large" or "Extra large".
